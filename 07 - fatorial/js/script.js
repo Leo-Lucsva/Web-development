@@ -1,10 +1,9 @@
 
 function fatorial (a) {
   backup_num = a;
-  for (i = a; i > 0; i--) {
+  for (let i = a; i > 1; i--) {
     a = a * (backup_num - 1)
     backup_num --;
-
   }
   console.log(a)
 }
